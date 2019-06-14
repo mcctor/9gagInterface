@@ -1,5 +1,10 @@
+from bs4 import BeautifulSoup
+from requests import Session
+
 
 class GagInterface:
+
+    __web_link = 'https://9gag.com'
 
     def __init__(self):
         pass
